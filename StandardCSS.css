@@ -33,7 +33,7 @@ th {
 	padding-bottom: -30px;
 }
 /*Dropdown function - PratiskInfo*/
-.dropbtn {
+.PraInfDropDown {
 	background-color: #6BBDC7;
 	color: black;
 	font-size: 30px;
@@ -45,7 +45,7 @@ th {
 	position: relative;
 	display: inline-block;
 }
-.dropdown-content {
+.dropdown-contentPI {
 	display: none;
  	position: absolute;
   	background-color: #f1f1f1;
@@ -53,15 +53,63 @@ th {
   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   	z-index: 1;
 }
-.dropdown-content a {
+.dropdown-contentPI a {
 	color:black;
 	padding: 12px 16px;
   	text-decoration: none;
   	display: block;
 }
-.dropbtn:hover{
+.DropdownBoksPI:hover {
+	background-color: #C0C0C0
+}
+.PraInfDropDown:hover{
 	background-color: #3EA0A9;
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-contentPI {
 	display: block;
+}
+/*Dropdown function - Forbered Dig*/
+.ForDigDropDown {
+	background-color: #6BBDC7;
+	color: black;
+	font-size: 30px;
+	border: none;
+	padding: 16px;
+	font-weight: bold;
+}
+.FDDropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-contentFD {
+	display: none;
+ 	position: absolute;
+  	background-color: #f1f1f1;
+  	min-width: 120px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+.dropdown-contentFD a {
+	color:black;
+	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+}
+.DropdownBoksFD:hover {
+	background-color: #C0C0C0
+}
+.ForDigDropDown:hover{
+	background-color: #3EA0A9;
+}
+.FDDropdown:hover .dropdown-contentFD {
+	display: block;
+}
+/* CSS til Underbox */
+.bottomdiv{
+	position: absolute;
+	bottom: 0px;
+	width: 100
+}
+.bottom {
+	background-color: #8F8F8F
 }
