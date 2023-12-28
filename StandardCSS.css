@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 /* Logo og motto*/
+html, body {
+	margin: 0;
+	height: 100%;
+}
 .Logo {
 	display: block;
 	margin-left: 100px;
@@ -8,7 +12,7 @@
 .Top{
 	margin-left: auto;
 	margin-right:auto;
-	margin-top: 20px;
+	margin-top: 0px;
 	background-color:#6BBDC7;
 	width: 100%;
 }
@@ -104,12 +108,61 @@ th {
 .FDDropdown:hover .dropdown-contentFD {
 	display: block;
 }
-/* CSS til Underbox */
+/* CSS til Information om Influenza / Vigtig information*/
+.influenza {
+	height: 10%;
+	margin-top: 3%;
+	margin-left: 10%;
+}
+#OverskriftIZ{
+	font-size: 40px;
+	font-family: Georgia, Arial;
+	color: white;
+	background-color: black;
+}
+/* CSS til Video*/
+#Video {
+	float: right;
+	margin-top: 2%;
+	margin-right: 5%;
+}
+/* CSS til Hyppigt Besøgte Kategorier*/
+#OverSkrHBK{
+	margin-top: 5%;
+}
+
+#OverskriftHBK{
+	color: white;
+	background-color: black;
+	font-size: 40px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* CSS til Hyppigt Besøgte Kategorier (Kategorierne selv)*/
+#Kategorier{
+	margin-left: auto;
+	margin-right: auto;
+}
+.KategorierText{
+	font-size: 30px;
+}
+/* CSS til Footer */
+.footer{
+	display: block;
+}
 .bottomdiv{
-	position: absolute;
-	bottom: 0px;
-	width: 100
+  	left: 0;
+ 	bottom: 0;
+  	width: 100%;
 }
 .bottom {
-	background-color: #8F8F8F
+	background-color: #8F8F8F;
+	width: 100%;
+}
+#Adress {
+	color: black;
+}
+#Adress:visited {
+	color: antiquewhite
 }
