@@ -108,7 +108,11 @@ th {
 .FDDropdown:hover .dropdown-contentFD {
 	display: block;
 }
-/* CSS til Information om Influenza / Vigtig information*/
+/* CSS til Information om Influenza / Vigtig information (og delvis tids)*/
+p, .list{
+	font-size: 20px;
+	text-align: center;
+}
 .influenza {
 	height: 10%;
 	margin-top: 3%;
@@ -120,6 +124,19 @@ th {
 	color: white;
 	background-color: black;
 }
+/* CSS til Telefontider*/
+.Tider {
+	background: #BDBDBD
+}
+.Tider2{
+	background:#D99A9B
+}
+#TelefonTider{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* CSS til Video*/
 #Video {
 	float: right;
