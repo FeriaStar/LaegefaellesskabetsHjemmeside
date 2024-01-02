@@ -116,7 +116,7 @@ p, .list{
 .influenza {
 	height: 10%;
 	margin-top: 3%;
-	margin-left: 10%;
+	margin-left: auto;
 }
 #OverskriftIZ{
 	font-size: 40px;
@@ -135,6 +135,7 @@ p, .list{
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+	border-collapse: collapse;
 }
 
 /* CSS til Video*/
@@ -142,6 +143,7 @@ p, .list{
 	float: right;
 	margin-top: 2%;
 	margin-right: 5%;
+	
 }
 /* CSS til Hyppigt Besøgte Kategorier*/
 #OverSkrHBK{
@@ -182,4 +184,7 @@ p, .list{
 }
 #Adress:visited {
 	color: antiquewhite
+}
+.FooterText {
+	font-size: 20px;
 }
