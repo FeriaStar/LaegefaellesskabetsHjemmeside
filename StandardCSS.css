@@ -5,13 +5,10 @@ html, body {
 	margin: 0;
 	height: 100%;
 }
-.Logo {
-	display: block;
-	margin-left: 100px;
-}
+
 .Top{
 	margin-left: auto;
-	margin-right:auto;
+	margin-right: auto;
 	margin-top: 0px;
 	background-color:#6BBDC7;
 	width: 100%;
@@ -28,6 +25,10 @@ html, body {
 .Quick {
 	font-size: 30px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	max-width: 10%;
+}
+.Hide{
+	color: #6BBDC7
 }
 th {
 	margin-left: auto;
@@ -116,8 +117,11 @@ p, .list{
 .influenza {
 	height: 10%;
 	margin-top: 3%;
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
+}
+.InfluenzaText{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
 #OverskriftIZ{
 	font-size: 40px;
@@ -137,14 +141,18 @@ p, .list{
 	margin-left: auto;
 	margin-right: auto;
 	border-collapse: collapse;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
-
+#Telefon{
+	font-size: 40px;
+}
 /* CSS til Video*/
 #Video {
 	float: right;
-	margin-top: 2%;
+	margin-bottom: auto;
 	margin-right: 5%;
-	
+	margin-left: 5%;
+	margin-top: 240px; 
 }
 /* CSS til Hyppigt Besøgte Kategorier*/
 #OverSkrHBK{
@@ -172,8 +180,6 @@ p, .list{
 	display: block;
 }
 .bottomdiv{
-  	left: 0;
- 	bottom: 0;
   	width: 100%;
 }
 .bottom {

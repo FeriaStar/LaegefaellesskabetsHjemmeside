@@ -2,20 +2,31 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="StandardCSS.css">
+	
 <title>html</title>
 </head>
 	<!-- Logo og motto -->
 
 <table style="height: 300px" class="Top">
 	<tr style="height: 200px">
-		<th class="Left" rowspan="1">
-			<img src= "LægefællesskabetLogo.png" alt="Laegefaellesskabet" style="width:600px" class="Logo">
+		<th class="Left" colspan="6">
+			<img src= "LægefællesskabetLogo.png" style="min-width: 50%" alt="Laegefaellesskabet">
+		</th>
+	</tr>
+	<tr >
+		<th colspan="6" class="Left">
+			<p class="Motto"> -fordi god behandlig er en fælles sag</p>
 		</th>
 	</tr>
 	<tr>
-		<th class="Left" rowspan="1">
-			<p class="Motto"> -fordi god behandlig er en fælles sag</p>
+		<th>
+			<p class="Hide"> HIDE</p>
+		</th>
+		<th>
+			<p class="Hide"> HIDE</p>
 		</th>
 		<!-- Dropdown bar - Test -->
 		<th rowspan="2" class="Quick">
@@ -52,7 +63,7 @@
 	</tr>
 	</table>
 	<!-- Influenza Del + Video -->
-<table width="50%" class="influenza">
+<table style="width=75%; min-width: 75%" class="influenza">
 	<tr>
 		<th id="OverskriftIZ">
 			<p> Mange bliver smittet af influenza i øjeblikket</p>
@@ -60,20 +71,23 @@
 	</tr>
 	<tr>
 		<th>
-			<p> Influenza og Corona spreder sig i øjeblikket i hele landet, så pas på jer selv og jeres nærmeste.</p>
+			<p class="InfluenzaText"> Influenza og Corona spreder sig i øjeblikket i hele landet, så pas på jer selv og jeres nærmeste.</p>
 		</th>
 	</tr>
 	<tr>
 		<th>
-			<p> For relevant information og eventuelle spørgsmål i forhold til vaccination, kan det findes på <a href="https://www.sst.dk/da/Vaccination">sundhedsstyrelsens hjemmeside</a> eller ring til Region Midtjylland på Telefon: <a>70 23 24 15</a>, hvor de vil svarer på ydeligere spørgsmål</p>
+			<p class="InfluenzaText"> For relevant information og eventuelle spørgsmål i forhold til vaccination, kan det findes på <a href="https://www.sst.dk/da/Vaccination">sundhedsstyrelsens hjemmeside</a> eller ring til Region Midtjylland på Telefon: <a>70 23 24 15</a>, hvor de vil svarer på ydeligere spørgsmål</p>
 		</th>
 		<th rowspan="3">
 			
 		</th>
 	</tr>
-	<iframe alt="Til Nye Patienter" id="Video" width="600" height="360" src="https://www.youtube.com/embed/20F_Q6U0_zw">
-			</iframe>
+	
 </table><br>
+<br>
+
+	<iframe alt="Til Nye Patienter" id="Video" width="600" height="360" src="https://www.youtube.com/embed/20F_Q6U0_zw">
+			</iframe><br>
 <br><br>
 <br>
 <br><br>
@@ -85,10 +99,10 @@
 
 	
 <!--Telefontider og Åbningstider-->
-<table id="TelefonTider" style="width:50%">
+<table id="TelefonTider" style="width:50%; min-width: 50%">
 	<tr >
 		<th colspan="2">
-			<a> Telefontider</a>
+			<a id="Telefon"> Telefontider</a>
 		</th>
 	</tr>	
 	<tr>
@@ -129,7 +143,7 @@
 	
 <br>
 	<!--Vigtige Katekorier-->
-<table id="OverSkrHBK" width="80%" align="center">
+<table id="OverSkrHBK" style="width=80%; min-width: 80%" align="center">
 	<tr>
 		<th id="OverskriftHBK">
 			<p>Vigtige Kategorier</p>
@@ -162,17 +176,17 @@
 	</tr>
 	<tr>
 		<th>
-			<p> Hvis du gerne vil have tid samme dag, så ring til 70 89 00 70 i tidsrummet 8 til 9. </p>
-			<p> Mere information i forhold til at bestille tid vil du kunne finde <a>her</a></p>
+			<p class="TiderText"> Hvis du gerne vil have tid samme dag, så ring til 70 89 00 70 i tidsrummet 8 til 9. </p>
+			<p class="TiderText"> Mere information i forhold til at bestille tid vil du kunne finde <a>her</a></p>
 		</th>
 		<th>
-			<p> Igennem <a>patientportalen</a> vil du kunne få en videokonsulation med en af vores læger eller sygeplejersker.</p>
-			<p>Du kan også skrive til os på <a href="">mail</a></p>
+			<p class="TiderText"> Igennem <a>patientportalen</a> vil du kunne få en videokonsulation med en af vores læger eller sygeplejersker.</p>
+			<p class="TiderText">Du kan også skrive til os på <a href="">mail</a></p>
 		</th>
 		<th>
-		  <p> Når du bliver henvist til en speciallæge, psykolog eller fysioterapeut skal du selv tag kontakt til dem.  </p>
-		  <p> For en oversigt over behandlere, <a href="">Klik Her</a></p>
-			<p> For at få mere at vide om henvisninger, <a href="">Klik Her</a></p>
+		  <p class="TiderText"> Når du bliver henvist til en speciallæge, psykolog eller fysioterapeut skal du selv tag kontakt til dem.  </p>
+		  <p class="TiderText"> For en oversigt over behandlere, <a href="">Klik Her</a></p>
+			<p class="TiderText"> For at få mere at vide om henvisninger, <a href="">Klik Her</a></p>
 		</th>
 		
 	</tr>
@@ -196,17 +210,17 @@
 			<th rowspan="3">
 				<a class="FooterText" id="Adress" href="https://www.google.com/maps/place/Lægefællesskabet/@56.4181009,10.8624888,18z/data=!4m15!1m8!3m7!1s0x464dd50bcefbd55b:0x5e8a83fc93857ac8!2sSygehusvej+15,+2,+8500+Grenå!3b1!8m2!3d56.4180822!4d10.8638628!16s%2Fg%2F11ll_zc45j!3m5!1s0x464dd50bcefbd55b:0xfaee4064abf2f19e!8m2!3d56.4180822!4d10.8638628!16s%2Fg%2F11d_z0wfn7?entry=ttu"> Sygehusvej 15, 2.sal 8500 Grenå </a>
 			</th>
-			<td>
+			<td rowspan="1">
 				<a class="FooterText"> Telefon: 70 89 00 70</a>
 			</td>
 		</tr>	
 		<tr>
-			<td>
+			<td rowspan="1">
 				<a class="FooterText"> Fax: 46 14 00 00</a>
 			</td>
 		</tr>
 		<tr>
-			<td>
+			<td rowspan="1">
 				<a class="FooterText"> Akut Telefon: 60 10 91 44</a>
 			</td>
 			<td rowspan="3">
