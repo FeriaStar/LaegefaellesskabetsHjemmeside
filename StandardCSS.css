@@ -15,7 +15,7 @@ html, body {
 }
 .Motto {
 	font-size: 20px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family: Arial, Georgia, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 .Left{
 	width: 20%;
@@ -24,7 +24,7 @@ html, body {
 }
 .Quick {
 	font-size: 30px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family: Arial, Georgia, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	max-width: 10%;
 }
 .Hide{
@@ -121,11 +121,11 @@ p, .list{
 	margin-left: auto;
 }
 .InfluenzaText{
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	font-family: Arial, Georgia, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
 #OverskriftIZ{
 	font-size: 40px;
-	font-family: Georgia, Arial;
+	font-family: Arial, Georgia, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	color: white;
 	background-color: black;
 }
