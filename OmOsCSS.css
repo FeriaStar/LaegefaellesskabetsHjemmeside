@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 /* Logo og motto*/
 html, body {
 	margin: 0;
@@ -109,72 +110,27 @@ th {
 .FDDropdown:hover .dropdown-contentFD {
 	display: block;
 }
-/* CSS til Information om Influenza / Vigtig information (og delvis tids)*/
-p, .list{
-	font-size: 20px;
-	text-align: center;
-}
-.influenza {
-	height: 10%;
-	margin-top: 3%;
-	margin-right: auto;
-	margin-left: auto;
-}
-.InfluenzaText{
-	font-family: Arial, Georgia, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
-}
-#OverskriftIZ{
-	font-size: 40px;
-	font-family: Arial, Georgia, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	color: white;
-	background-color: black;
-}
-/* CSS til Telefontider*/
-.Tider {
-	background: #BDBDBD
-}
-.Tider2{
-	background:#D99A9B
-}
-#TelefonTider{
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	border-collapse: collapse;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
-}
-#Telefon{
-	font-size: 40px;
-}
-/* CSS til Video*/
-#Video {
-	float: right;
-	margin-bottom: auto;
-	margin-right: 5%;
-	margin-left: 5%;
-	margin-top: 240px; 
-}
-/* CSS til Hyppigt Besøgte Kategorier*/
-#OverSkrHBK{
-	margin-top: 5%;
-}
-
-#OverskriftHBK{
-	color: white;
-	background-color: black;
-	font-size: 40px;
-	width: 100%;
+/* CSS til Information Om Os og Personalle */
+.OmOsInfo{
 	margin-left: auto;
 	margin-right: auto;
 }
-/* CSS til Hyppigt Besøgte Kategorier (Kategorierne selv)*/
-#Kategorier{
-	margin-left: auto;
-	margin-right: auto;
-}
-.KategorierText{
+#OmOsOverSkrift{
 	font-size: 30px;
 }
+#OmOsTekst{
+	font-size: 20px;
+}
+.Personalle{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5%
+}
+.Navne{
+	font-size: 25px;
+}
+
+
 /* CSS til Footer */
 .footer{
 	display: block;
